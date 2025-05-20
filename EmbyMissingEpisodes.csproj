@@ -8,12 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <Compile Remove="Build\**" />
+    <Compile Remove="Doc\**" />
+    <EmbeddedResource Remove="Build\**" />
+    <EmbeddedResource Remove="Doc\**" />
+    <None Remove="Build\**" />
+    <None Remove="Doc\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Doc\" />
-    <Folder Include="Build\" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

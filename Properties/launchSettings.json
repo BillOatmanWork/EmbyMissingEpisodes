@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EmbyMissingEpisodes": {
+      "commandName": "Project",
+      "commandLineArgs": "cc359227c4324ed292cc3a2f354aff82 192.168.50.42 8096 30"
+    }
+  }
+}

@@ -64,7 +64,7 @@ namespace EmbyMissingEpisodes
             {
                 if((DateTime.Now - item.PremiereDate).TotalDays <= daysToCheck)
                 {
-                    Utilities.ConsoleWithLog($"Series Name: {item.SeriesName} Episode Name: {item.Name} Aired: {item.PremiereDate.ToShortDateString()} ({Math.Round((DateTime.Now - item.PremiereDate).TotalDays)} days)");
+                    Utilities.ConsoleWithLog($"Series Name: {item.SeriesName} Episode Name: {item.Name} Episode: S{item.SeasonNumber.ToString("D2")}E{item.EpisodeNumber.ToString("D2")} Aired: {item.PremiereDate.ToShortDateString()} ({Math.Round((DateTime.Now - item.PremiereDate).TotalDays)} days)");
                 }
             }
         }

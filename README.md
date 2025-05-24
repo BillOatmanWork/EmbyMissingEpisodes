@@ -29,3 +29,6 @@ Run on a different machine as Emby looking back 60 days.
 EmbyMissingEpisodes <Emby Key> 123.0.1.1 8096 60
 ``` 
 
+## Note
+EmbyMissingEpisodes is CharityWare. If you like this program and find it of value, please consider making a
+donation to a local charity that benefits children such as Special Olympics.

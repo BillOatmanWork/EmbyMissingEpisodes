@@ -5,7 +5,7 @@ Detects if Ember server is missing any TV episodes
 - Decompress the proper file for your operating system into a folder. 
 
 ## Parameters (Case Insensitive)
-- EmbyMissingEpisodes API_KEY urlORlocalhost port daysToCheck
+- EmbyMissingEpisodes API_KEY url_OR_localhost port daysToCheck
 - To get Emby api key go to dashboard>advanced>security and generate one
   
 ## Example

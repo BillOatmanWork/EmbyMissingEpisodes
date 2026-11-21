@@ -67,6 +67,8 @@ namespace EmbyMissingEpisodes
                     Utilities.ConsoleWithLog($"Series Name: {item.SeriesName} S{item.SeasonNumber:D2}E{item.EpisodeNumber:D2}  Episode Name: {item.Name} Aired: {item.PremiereDate.ToShortDateString()} ({Math.Round((DateTime.Now - item.PremiereDate).TotalDays)} days)");
                 }
             }
+
+            Utilities.ConsoleWithLog("Complete!");
         }
     }
 
